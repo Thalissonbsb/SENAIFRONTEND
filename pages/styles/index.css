@@ -1,0 +1,58 @@
+*{
+
+margin: 0%;
+padding: 0%;
+
+}
+
+header, footer{
+
+width: 100%;
+padding: 20px 0px;
+background-color: rgb(111, 231, 100);
+color: aliceblue;
+display: flex;
+justify-content: space-around;
+
+
+
+
+}
+footer{
+justify-content: center;
+flex-direction: column;
+
+
+}
+header a{
+
+text-decoration: none;
+color: aliceblue;
+    
+}
+main{
+
+    width: 90%;
+    box-shadow: 5px 5px 5px chartreuse;
+    margin: 10px auto;
+    padding: 5px;
+
+}
+h2, h4{
+    text-align: center;
+     color: blue;
+
+
+
+}
+#novidades ul{
+background-color: brown;
+width: 60%;
+height: 200px;
+margin: 10px auto;
+display: flex;
+align-items:  center;
+justify-content: center;
+gap: 20px;
+
+}
